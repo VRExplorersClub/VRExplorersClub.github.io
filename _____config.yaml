@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: www
+source: docs
 incremental: false
 highlighter: rouge
 title: The VR Explorer's Club
