@@ -1,0 +1,15 @@
+lsi: false
+safe: true
+source: www
+incremental: false
+highlighter: rouge
+title: The VR Explorer's Club
+description: This is a log of the VR Exploerer's club's adventures.
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+  jekyll-remote-theme
