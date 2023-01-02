@@ -20,29 +20,30 @@
 
 title: The VR Explorer's Club
 email: spectralpolymath@gmail.com
-description: This is a log of the VR Exploerer's club's adventures.
-baseurl: "VRExplorersClub.github.io" # the subpath of your site, e.g. /blog
+description: This is a log of the VR Exploerer\'s club\'s adventures.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github: [metadata]
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
+search: true
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-menus
 
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+locale: "en-US"
+logo: "/assets/images/icon.png"
+
+include: ["_posts", "_pages"]
+
+head_scripts:
+  - /assets/js/jquery.js
+
+footer_scripts: 
+  - /assets/js/footer_scripts.js
 
 
 # Exclude from processing.

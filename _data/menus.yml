@@ -1,0 +1,24 @@
+header:
+  - url: /Explorations/
+    title: "Explorations"
+    description: "Chronicles of the VR Explorer's Club"
+    identifier: explorations
+
+  - url: /AboutUs/
+    title: "About Us"
+    description: "Learn about our club!"
+    identifier: aboutus
+    
+explorations:
+  - title: Explorations
+    children:
+      - title: "Virtual Market"
+        url: /Explorations/VirtualMarket/
+        description: "The World's Largest Virtual Market and Fair"
+
+vket:
+  - title: Winter
+    children:
+      - title: "2022-Winter"
+        url: /Explorations/VirtualMarket/Winter/2022
+        description: "VKet 2022: Next Journey"
